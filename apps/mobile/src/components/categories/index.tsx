@@ -29,7 +29,7 @@ export const Categories = ({ data, selected, onSelect }: Props) => {
       style={styles.container}
       contentContainerStyle={styles.content}
       horizontal
-      showsHorizontalScrollIndicator
+      showsHorizontalScrollIndicator={false}
     />
   );
 };

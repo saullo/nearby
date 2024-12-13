@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
   },
   containerSelected: {
     backgroundColor: colors.green.base,
-    borderWidth: 0,
+    borderColor: colors.green.base,
   },
   name: {
     fontSize: 14,
